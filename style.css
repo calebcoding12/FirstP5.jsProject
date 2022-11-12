@@ -1,0 +1,20 @@
+body{
+  animation-name: animation;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+}
+@keyframes animation{
+    from{
+        background-color: rgb(69, 212, 212);
+    }
+    to{
+        background-color: rgb(24, 175, 18);
+    }
+}
+button {
+    width: 250px;
+    border-radius: 20%;
+    color: white;
+    font-size: 30px;
+    background-color: rgb(88, 168, 88);
+}
